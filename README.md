@@ -44,7 +44,7 @@ Second layer: The second layer had 25 neurons.
 Epochs:100
 Batch: 320
 
-Rationale: This model was used to create a baseline and uses the general prinicples for this type of maachine learning model. The 
+Rationale: This model was used to create a baseline and uses the general prinicples for this type of machine learning model. Using 50 neurons for the first layer aligns to 49 features and 25 for the next layer is common practise as a starting point for deep neural learning. 
 
 ## Evaluation of the model:
 
