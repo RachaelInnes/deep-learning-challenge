@@ -49,6 +49,10 @@ I conducted four deep neural network training models in an attempt to reach 75% 
 ### Evaluation of the Model:
 
 The accuracy of the model was:
+
+215/215 - 0s - 2ms/step - accuracy: 0.7261 - loss: 0.5974
+Loss: 0.5974100232124329, Accuracy: 0.7260932922363281
+
 Overall, this model had 72.61% accuracy with a loss of 59.00%. This model correctly predicted the outcome of funding being used successfully 72.61% of the time. The 59% loss suggests that the model is still learning and may need adjustments to improve accuracy.
 
 ---
@@ -65,19 +69,8 @@ Overall, this model had 72.61% accuracy with a loss of 59.00%. This model correc
 ### Evaluation of the Model:
 
 The accuracy of the model was:
-## Model 2: Starter Code 1
-
-- **First hidden layer**: The first hidden layer had 60 neurons.
-- **Second layer**: The second layer had 35 neurons.
-- **Third layer**: The third layer had 15 neurons.
-- **Epochs**: 100
-- **Batch size**: 320
-
-**Rationale**: In this model, I added a third layer to enhance the model's ability to learn more complex patterns. The first model provided a good baseline, but the aim is to reach 75% accuracy, hence the addition of a layer and changes to the neurons.
-
-### Evaluation of the Model:
-
-The accuracy of the model was:
+215/215 - 1s - 3ms/step - accuracy: 0.7284 - loss: 0.5595
+Loss: 0.5595238208770752, Accuracy: 0.7284256815910339
 
 Overall, this model had 72.84% accuracy with a loss of 55.95%, meaning it predicted the outcome correctly 72.84% of the time. This model is a slight improvement from the first model (+0.23%), suggesting that adding an additional layer helps capture underlying patterns.
 
@@ -95,6 +88,10 @@ Overall, this model had 72.84% accuracy with a loss of 55.95%, meaning it predic
 **Rationale**: In this model, I added an additional layer to enhance the ability to read more complex data patterns and improve accuracy.
 
 ### Evaluation of the Model:
+
+215/215 - 0s - 2ms/step - accuracy: 0.7278 - loss: 0.5647
+Loss: 0.5646637678146362, Accuracy: 0.7278425693511963
+
 Overall, this model had 72.78% accuracy with a loss of 56.47%. Adding an additional layer reduced the accuracy; thus, it could be assumed that some "overfitting" is occurring, and the model is not capturing underlying patterns.
 
 ---
@@ -112,6 +109,9 @@ In this model, I reverted to a third layer:
 **Rationale**: I tried batch normalization and dropout to reduce overfitting, which may explain the lack of accuracy improvement in previous models. I also implemented **EarlyStopping** to manage overfitting, stopping training when the validation loss stops improving. Additionally, I implemented **ReduceLROnPlateau**, which adjusts the learning rate to help fine-tune the training process.
 
 ### Evaluation of the Model:
+
+215/215 - 0s - 1ms/step - accuracy: 0.7283 - loss: 0.5524
+Loss: 0.5523567199707031, Accuracy: 0.7282798886299133
 
 Overall, this model had 72.83% accuracy with a loss of 55.24%. While this model improved upon Model 3, it was not the most optimal.
 
