@@ -33,7 +33,7 @@ It should be noted that the EIN and NAME identification columns were removed fro
 
 I conducted four deep nerual network training models in an attempt to reach 75% accuracy in predicting success of funding for applicants.  In all models I adopted the following: 
 
--Activation function: The ReLU activation function is used in the hidden layers to introduce non-linearity.
+Activation function: The ReLU activation function is used in the hidden layers to introduce non-linearity.
 -Output layer: The outer layer utilised the Sigmoid activation function with a single (1) neuron.
 -Neurons: In all models I reduced the number of neurons with each hidden layer.
 -The model saved weights every 5 epoch, this is to monitor the training progress. 
@@ -44,7 +44,7 @@ Second layer: The second layer had 25 neurons.
 Epochs:100
 Batch: 320
 
-Rationale: This model was used to create a baseline and uses the general prinicples for this type of maachine 
+Rationale: This model was used to create a baseline and uses the general prinicples for this type of maachine learning model. The 
 
 ## Evaluation of the model:
 
