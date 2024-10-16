@@ -15,17 +15,17 @@ The target variable for this model is,  "IS_SUCCESSFUL", this is the binary (0 o
 
 The features of the model included in metadata is:
 
-EIN and NAME—Identification columns
-APPLICATION_TYPE—Alphabet Soup application type
-AFFILIATION—Affiliated sector of industry
-CLASSIFICATION—Government organisation classification
-USE_CASE—Use case for funding
-ORGANIZATION—Organisation type
-STATUS—Active status
-INCOME_AMT—Income classification
-SPECIAL_CONSIDERATIONS—Special considerations for application
-ASK_AMT—Funding amount requested
-IS_SUCCESSFUL—Was the money used effectively
+-EIN and NAME—Identification columns
+-APPLICATION_TYPE—Alphabet Soup application type
+-AFFILIATION—Affiliated sector of industry
+-CLASSIFICATION—Government organisation classification
+-USE_CASE—Use case for funding
+-ORGANIZATION—Organisation type
+-STATUS—Active status
+-INCOME_AMT—Income classification
+-SPECIAL_CONSIDERATIONS—Special considerations for application
+-ASK_AMT—Funding amount requested
+-IS_SUCCESSFUL—Was the money used effectively
 
 It should be noted that the EIN and NAME identification columns were removed from the data set. These variables were removed as the values included did not provide any insights to the data.  Each EIN and Name awas attached to an Application Type and other Classifications, and thus, they were not needed to identify the organisations or used for analysis. There are a total of 49 features used in the models. 
 
