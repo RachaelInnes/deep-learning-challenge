@@ -69,6 +69,7 @@ Overall, this model had 72.61% accuracy with a loss of 59.00%. This model correc
 ### Evaluation of the Model:
 
 The accuracy of the model was:
+
 215/215 - 1s - 3ms/step - accuracy: 0.7284 - loss: 0.5595
 Loss: 0.5595238208770752, Accuracy: 0.7284256815910339
 
@@ -88,6 +89,8 @@ Overall, this model had 72.84% accuracy with a loss of 55.95%, meaning it predic
 **Rationale**: In this model, I added an additional layer to enhance the ability to read more complex data patterns and improve accuracy.
 
 ### Evaluation of the Model:
+
+The accuracy of the model was:
 
 215/215 - 0s - 2ms/step - accuracy: 0.7278 - loss: 0.5647
 Loss: 0.5646637678146362, Accuracy: 0.7278425693511963
@@ -109,6 +112,8 @@ In this model, I reverted to a third layer:
 **Rationale**: I tried batch normalization and dropout to reduce overfitting, which may explain the lack of accuracy improvement in previous models. I also implemented **EarlyStopping** to manage overfitting, stopping training when the validation loss stops improving. Additionally, I implemented **ReduceLROnPlateau**, which adjusts the learning rate to help fine-tune the training process.
 
 ### Evaluation of the Model:
+
+The accuracy of the model was:
 
 215/215 - 0s - 1ms/step - accuracy: 0.7283 - loss: 0.5524
 Loss: 0.5523567199707031, Accuracy: 0.7282798886299133
