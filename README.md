@@ -124,7 +124,9 @@ Overall, this model had 72.83% accuracy with a loss of 55.24%. While this model 
 
 ## Summary and Recommendations
 
-I developed four models to predict the success of applicants applying for funding. The highest level of accuracy achieved was 72.84%. In terms of Alphabet Soup, while this may be considered acceptable, it presents some risk, as nearly 27% of cases may not provide funding to the best applicants. Other strategies could be implemented to improve the training model, such as adjusting the learning rate or changing the number of layers and parameters of those layers to enhance model accuracy.
+I developed four models to predict the success of applicants applying for funding. The highest level of accuracy achieved was 72.84%. In terms of Alphabet Soup, while this may be considered acceptable, it presents some risk, as nearly 27% of cases may not provide funding to the best applicants.
+
+Other strategies could be implemented to improve the training model, such as adjusting the learning rate or changing the number of layers and parameters of those layers to enhance model accuracy. It would be worthwhile considering alernative model such as Random Forest. This modelling contains decisions tress during the training process and can be applied to data that has both numerical and categorical data, such as we have in this dataset, where there is data around a Type of organisation and the Loan amount. This modelling can handle these different types of features without needing to continue to remodel. One of the biggest advantage of this model is that it can determine the importance of each feature (such as Affiliation) that might influence success. As this is a fairly large dataset Random Forest Classifier should be considered.
 
 
 
